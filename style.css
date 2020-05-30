@@ -1,0 +1,68 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: #BDC3C7;
+    font-family: 'DM Mono', monospace;
+}
+
+header{
+    background-color: #1C2833  ;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+.grid{
+    height: 366px;
+    width: 366px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.grid div{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+}
+
+button{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color:#1C2833;
+    color: white;
+}
+
+.player-one{
+    background-image: url("cross1.jpg");
+    background-repeat: no-repeat ;
+    background-size: contain;
+}
+
+.player-two{
+    background-image: url("circle1.jpg");
+    background-repeat: no-repeat ;
+    background-size: contain;
+}
+
+footer{
+    background-color: #1C2833  ;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: small;
+    color: white;
+    font-family: roboto;
+}
